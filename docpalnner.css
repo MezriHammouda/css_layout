@@ -1,0 +1,572 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&family=Work+Sans:wght@100;200;300&display=swap');
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700|Work+Sans:300,400,500,600,700&display=swap);
+
+.default {
+    max-width: 100%;
+    width: 268px;
+    height: 33px;
+    margin-left: 100px;
+}
+
+nav {
+    display: flex;
+    text-align: center;
+
+}
+
+
+ul {
+    display: flex;
+    margin-left: 40%;
+}
+
+ul li {
+    list-style-type: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+ul li a {
+
+    text-decoration: none;
+    transition: 0.2s;
+    color: gray
+}
+
+ul li a:hover {
+    color: #00b39b;
+
+
+}
+
+li a.specific {
+    color: #00b39b
+}
+
+.imgs {
+    width: 50px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+
+ .main-title {
+    font-size: 2.125rem;
+    margin: 1em 0;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: normal;
+    letter-spacing: -.3px;
+    display: flex;
+    justify-content: center;
+    color: #00b39b;
+} 
+
+
+.writing {
+    display: flex;
+    font-size: 16px;
+    color: #747474;
+    font-weight: 400;
+    font-family: Roboto, Arial, sans-serif;
+    margin-right: 95px;
+    line-height: 1.3;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased
+
+}
+
+
+
+
+.content {
+    width: 76vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+
+
+
+.BOX1 {
+    background: #00ccb1;
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+
+}
+
+.imgcontainer {
+    max-width: 10%;
+    border: 0;
+    margin-right: 0px;
+
+
+}
+
+h2 {
+    color: #fff;
+    margin: 0.3em 0;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 400;
+    margin-left: 15px;
+}
+
+#country-select {
+    padding-bottom: 10px;
+    text-decoration: underline;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #00ccb1;
+    border: none;
+    margin-left: 15px;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: .04em;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+    color: #fff;
+    font-family: Work Sans, Arial, sans-serif;
+    letter-spacing: -.3px;
+    margin-left: 15px;
+}
+
+.brands__logos {
+
+    float: none;
+    width: 100%;
+    margin-top: 1.25rem ;
+    justify-content:center;
+    width: 100%
+}
+
+.brands h1 {
+    float: left;
+    width: 33%;
+    font-size: 1.625em;
+    margin: 0.25em 0 0.35em;
+    padding-right: 1em;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+    color: #00b39b;
+}
+
+.brands__logos {
+
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 0;
+    list-style: none;
+    width: 67%
+}
+
+.brands__logos a {
+    display: inline-block;
+    padding: 5px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #3d83df;
+    outline: 0;
+    transition: all .2s ease 0s;
+}
+
+a {
+    background-color: transparent;
+}
+
+
+
+li {
+    text-align: -webkit-match-parent;
+}
+
+
+
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.BOX2 {
+    background: #3d83df;
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+
+}
+
+.BOX3 {
+    background: grey;
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+
+
+}
+
+.imgdocs {
+    max-width: 20px;
+    border: 0;
+    margin-right: 0px;
+
+
+}
+
+.BOX2 h1 {
+    color: #fff;
+    margin: 0.3em 0;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 400;
+    margin-left: 15px;
+
+}
+
+#countryselect2 {
+    background-color: #3d83df;
+    padding-bottom: 10px;
+    text-decoration: underline;
+    font-size: 1.2rem;
+    color: white;
+    border: none;
+    margin-left: 15px;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: .04em;
+
+}
+
+.BOX2 h2 {
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+    color: #fff;
+    font-family: Work Sans, Arial, sans-serif;
+    letter-spacing: -.3px;
+    margin-left: 15px;
+
+}
+
+#countryselect3 {
+    background-color: grey;
+    padding-bottom: 10px;
+    text-decoration: underline;
+    font-size: 1.2rem;
+    color: white;
+    border: none;
+    margin-left: 15px;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: .04em;
+
+}
+
+#countryselect4 {
+    background-color: grey;
+    padding-bottom: 10px;
+    text-decoration: underline;
+    font-size: 1.2rem;
+    color: white;
+    border: none;
+    margin-left: 15px;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: .04em;
+
+}
+
+.brands {
+    padding-top: 40px;
+}
+
+
+.stats {
+    background-color: #D9F6F6;
+    display: flex;
+}
+
+.healthcare {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.description {
+    width: 50%;
+    padding-top: 40px;
+    overflow: hidden;
+}
+
+.description h1{
+    margin-left: 260px;
+    font-size: 2.125rem;
+    color: #00b39b;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+}
+
+.RDV {
+    font-size: 2.125rem;
+    color: #00b39b;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+
+}
+.booking {
+    font-size: .875em;
+    font-weight: 400;
+    line-height: 1.7142857143;
+    color: #747474;
+
+}
+
+
+.description p{
+    margin-left: 260px;
+    width: 400px;
+    max-width: 415px;
+    font-size: .875em;
+    font-weight: 400;
+    line-height: 1.7142857143;
+    color: #747474;
+}
+.leader {
+    font-size: 2.125rem;
+    color: #00b39b;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 200;
+    letter-spacing: -.3px;
+
+}
+.pays {
+    
+    font-size: .875em;
+    font-weight: 400;
+    line-height: 1.7142857143;
+    color: #747474;
+
+}
+
+.description img {
+    position: relative;
+    left: 80px;
+    top: 200px;
+}
+
+.box{
+    height: 300px;
+    width: 250px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box h1{
+    text-align: center;
+}
+
+.box p{
+    text-align: center;
+}
+
+.move {
+    position: relative;
+    top: 10px;
+}
+.change {
+    color: #00b39b;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+    text-align: center;
+}
+.office__desc {
+    font-size: 1.125em;
+    font-weight: 400;
+    line-height: 1.6666666667;
+    padding: 1.1111111111em;
+    margin-left: 15px;
+}
+.tourists {
+    background: #fff;
+    border: 1px solid rgba(0,0,0,.03);
+    border-radius: 6px;
+    overflow: hidden;
+    max-width: 311px;
+    z-index: 2;
+    position: relative;
+    display: block;
+    color: #747474;
+}
+figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+.office .btn {
+    float: right;
+}
+.btn--small {
+    font-size: .625rem;
+    padding: 1em 1.5em;
+}
+.btn {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    padding: 1.1666666667em 1.5em;
+    background: #3d83df;
+    font-family: Roboto,Arial,sans-serif;
+    line-height: 1em;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .04em;
+    font-size: .75rem;
+    text-decoration: none!important;
+    text-transform: uppercase;
+    transition: all .2s ease 0s;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+a {
+    text-decoration: none;
+    color: #3d83df;
+    outline: 0;
+    transition: all .2s ease 0s;
+}
+.office {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.patients {
+    font-size: 2.125rem;
+    color: #00b39b;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+
+
+}
+.visit {
+    font-size: .875em;
+    font-weight: 400;
+    line-height: 1.7142857143;
+    color: #747474;
+
+}
+.active {
+    font-size: 2.125rem;
+    color: #00b39b;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+
+}
+.solutions {
+    font-size: .875em;
+    font-weight: 400;
+    line-height: 1.7142857143;
+    color: #747474;
+    text-align: center;
+}
+.conclusion {
+    font-weight: 400;
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+    padding-top: 70px;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.7142857143;
+    font-size: .875em;
+    margin-top: 0.5em;
+text-align: center;
+    
+    
+}
+.sounds {
+    font-size: 2.1428571429em;
+    color: #333;
+    margin-bottom: 0.75em;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+    text-align: center;
+    padding-top: 100px;
+}
+.join-us__header {
+    max-width: 520px;
+    margin: 0 auto;
+    font-size: .875em;
+    text-align: center;
+}
+.join-us__header h1 {
+    font-size: 2.1428571429em;
+    color: #333;
+    margin-bottom: 0.75em;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+    margin-top: 70px;
+}
+.main-footer {
+    border-top: 1px solid #eef2f2;
+    text-align: center;
+    padding: 1em 0;
+}
+.main-footer .section__inner, .main-footer p {
+    font-size: 12px;
+    color: #ababab;
+}
+.section__inner {
+    zoom: 1;
+    max-width: 1015px;
+    padding: 0 20px;
+    margin: 0 auto;
+    position: relative;
+}
+.gipo img {
+    max-height: 50px;
+    width: auto;
+}
